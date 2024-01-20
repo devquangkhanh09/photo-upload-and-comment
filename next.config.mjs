@@ -6,13 +6,12 @@ const nextConfig = {
       {
         protocol: 'http',
         hostname: 'localhost',
-        port: '8080',
+        port: '8000',
         pathname: '/photos/*',
       },
       {
-        protocol: 'http',
-        hostname: 'ec2-13-211-134-40.ap-southeast-2.compute.amazonaws.com',
-        port: '8000',
+        protocol: 'https',
+        hostname: 'qode-assignment-api.dev-quangkhanh.xyz',
         pathname: '/photos/*',
       },
     ],
