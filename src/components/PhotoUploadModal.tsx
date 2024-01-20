@@ -43,7 +43,6 @@ const PhotoUploadModal: React.FC<Props> = ({
     setIsUploading(false);
 
     if (response.ok) {
-      alert('Uploaded successfully!');
       setFile(undefined);
       onDone();
     } else {
